@@ -4,18 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header>
+    <header class="px-4 py-14 md:px-32 bg-[#FFFBF0]">
+        <!-- nav-section -->
+        <div class="flex justify-between items-center">
+            <div class="logo">
+                <img class="w-3/6" src="icons/logo.png" alt="">
+            </div>
+            <div class="w-3/6">
+                <nav>
+                    <ul class="flex space-x-12">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
+        <!-- banner-section -->
+        <div class="flex flex-col md:flex-row justify-between items-center space-x-11 font-normal">
+            <div class="">
+                <h1 class="uppercase text-7xl text-[#363958] font-normal"><span class="text-[#FABE4C]">Be the Penguins</span> <br>
+                    of Winter</h1>
+                <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing 
+                    and typesetting industry.</p>
+                    <button class="px-8 py-5
+                    bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl text-white font-medium">BUY NOW</button>
+            </div>
+            <div class="">
+                <img src="images/model.png" alt="">
+            </div>
+        </div>
     </header>
 
-    <main>
-
+    <main class="max-w-7xl mx-auto">
+        <section class="py-12">
+            <h3 class="text-5xl uppercase">Women Jackets</h3>
+        </section>
     </main>
 
     <footer>
-        
+
     </footer>
     
 </body>
